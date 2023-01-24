@@ -160,6 +160,7 @@ body {
     text-align: center;
     color: #444444;
     background-color: #d0d0d0;
+    margin: 30px;
 }
 
 h1 {
@@ -208,7 +209,7 @@ p {
 }
 
 .pure-tree.main-tree {
-    width: 30em;
+    width: 15em;
     display: inline-block;
 }
 
@@ -226,22 +227,7 @@ p {
     display: block;
     cursor: pointer;
     color: #717780;
-    border-bottom: 1px dashed #B0B9C5;
-    padding: 1.125em 1.125em 1.125em 0;
-}
-
-.pure-tree label:before {
-    width: 1em;
-    height: 1em;
-    line-height: 1em;
-    display: inline-block;
-    font-family: 'FontAwesome', sans-serif;
-    padding-right: .75em;
-}
-
-.pure-tree label:hover {
-    color: #434a58;
-    border-bottom-color: #434a58;
+    padding: 5px;
 }
 
 .pure-tree .pure-tree_link a {
@@ -272,7 +258,6 @@ p {
 .pure-tree [type="checkbox"]:checked~ul>li {
     height: auto;
 }
-
 
 .card-container {
     display: flex;
